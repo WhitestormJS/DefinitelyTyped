@@ -40,10 +40,10 @@ export class Component extends ModuleSystem {
   /* TODO
    * .clone() invokes .copy() and returns a new Component
    */
-  clone(): any;
+  clone(): Component;
 
   /* TODO
    * This method is used to copy .native and .params from other WHS.Component
    */
-  copy(source: any, customize?: Function): any;
+  copy(source: any, customize?: Function): Component;
 }

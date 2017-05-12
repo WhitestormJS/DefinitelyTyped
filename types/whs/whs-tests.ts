@@ -27,3 +27,15 @@ component.module(null).disposeModules();
 
 const camera = new WHS.CameraComponent();
 const clonedCamera = camera.clone();
+
+const light = new WHS.LightComponent({});
+const clonedLight = light.clone();
+const copiedLight = light.copy(clonedLight);
+copiedLight.wrap();
+copiedLight.addTo(app);
+
+const mesh = new WHS.MeshComponent({});
+mesh.addTo(app);
+mesh.clone();
+mesh.copy({});
+mesh.build();

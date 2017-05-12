@@ -19,9 +19,13 @@
     "files": [
         "index.d.ts",
         "core/App.d.ts",
+        "core/CameraComponent.d.ts",
         "core/Component.d.ts",
+        "core/errors.d.ts",
         "core/index.d.ts",
+        "core/LightComponent.d.ts",
         "core/Loop.d.ts",
+        "core/MeshComponent.d.ts",
         "core/Module.d.ts",
         "core/ModuleManager.d.ts",
         "core/ModuleSystem.d.ts",
